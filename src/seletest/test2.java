@@ -11,7 +11,7 @@ public class test2 {
 	@SuppressWarnings("deprecation")
 	@Before
 	public void setup() throws Exception{
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\me\\Downloads\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", ".\\mylip\\chromedriver.exe");
 		driver=new ChromeDriver();
 	}
 	@SuppressWarnings("deprecation")
