@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class test {
 	static WebDriver driver;
 public	static void main(String argv[]){
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\me\\Downloads\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", ".\\mylip\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get("https://www.facebook.com");
 		driver.manage().window().maximize();
